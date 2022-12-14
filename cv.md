@@ -12,6 +12,17 @@
 ---
 
 ##About me
+
 I really want to become a front-end developer, I can work in a team, and I'm also sociable
+
+---
+
+##Skills
+
+-   HTML
+-   CSS
+-   Javascript
+-   Git
+-   Figma/Photoshop
 
 ---
