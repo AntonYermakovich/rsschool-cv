@@ -1,8 +1,8 @@
-#Anton Yermakovich
+# Anton Yermakovich
 
 ---
 
-##Contacts
+## Contacts
 
 -   **Location:** Minsk, Belarus
 -   **Phone:** +375 33 375 79 00
@@ -11,13 +11,13 @@
 
 ---
 
-##About me
+## About me
 
 I really want to become a front-end developer, I can work in a team, and I'm also sociable
 
 ---
 
-##Skills
+## Skills
 
 -   HTML
 -   CSS
@@ -27,7 +27,7 @@ I really want to become a front-end developer, I can work in a team, and I'm als
 
 ---
 
-##Code example
+## Code example
 
 ```
 function sum(a, b) {
@@ -38,7 +38,7 @@ sum(1, 2)
 
 ---
 
-##Languages
+## Languages
 
 -   Russian (native)
 -   English (elementary)
