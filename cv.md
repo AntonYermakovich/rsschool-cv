@@ -26,3 +26,19 @@ I really want to become a front-end developer, I can work in a team, and I'm als
 -   Figma/Photoshop
 
 ---
+
+##Code example
+
+```
+function sum(a, b) {
+    return a + b
+}
+sum(1, 2)
+```
+
+---
+
+##Languages
+
+-   Russian (native)
+-   English (elementary)
