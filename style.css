@@ -1,5 +1,6 @@
 :root {
-    --main-color: #853381
+    --main-color: #853381;
+    --hover-color: #4baec7;
 }
 
 * {
@@ -14,6 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -64,7 +70,7 @@ body {
 }
 
 .menu__link:hover {
-    color: rgb(75, 174, 199)
+    color: var(--hover-color)
 }
 
 .main {
@@ -75,4 +81,32 @@ body {
 .footer {
     height: 70px;
     background: var(--main-color);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__year {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__school {
+    height: 50px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    transition: .15s;
+    text-transform: uppercase;
+}
+
+.footer__link:hover {
+    color: var(--hover-color)
 }
