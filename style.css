@@ -10,7 +10,7 @@
 }
 
 body {
-    min-width: 320px;
+    min-width: 400px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -151,6 +151,10 @@ a {
     border: 2px solid var(--main-color);
     border-radius: 10px;
     overflow: hidden;
+}
+
+.about__img img {
+    object-fit: cover;
 }
 
 .contacts a {
