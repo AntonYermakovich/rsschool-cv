@@ -27,10 +27,7 @@
 
       <div class="about">
         <h2>Briefly About Myself</h2>
-        <p>
-          I am sociable and also know how to work in a team. I want to become a
-          good developer.
-        </p>
+        <p>I am sociable and also know how to work in a team. I want to become a good developer.</p>
       </div>
 
       <div class="skills">
@@ -46,23 +43,8 @@
       <div class="code">
         <h2>Code Examples</h2>
         <pre>
-            function search (nums, target) {
-                let left = 0;
-                let right = nums.length - 1;
-                let mid;
-        
-                while(left &lt;= right) {
-                  mid = Math.round((right - left) / 2) + left;
-      
-                  if (target === nums[mid]) {
-                      return mid;
-                  } else if (target &lt; nums[mid]) {
-                      right = mid - 1;
-                  } else {
-                      left = mid + 1;
-                  }
-                }
-                return -1;
+            function sayHi (a, b){
+                return a + b;
             }
         </pre>
       </div>
