@@ -17,3 +17,18 @@
 
 [Website](https://portfolio-antonyermakovichs-projects.vercel.app/)
 
+___
+
+### Briefly About Myself
+
+I am sociable and also know how to work in a team. I want to become a good developer.
+
+___
+
+### Skills
+
+* HTML, CSS, JS
+* React, Node.js, 
+* Figma, Photoshop
+* Git, GitHub, GitLab
+* VS Code, WebStorm
