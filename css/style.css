@@ -21,11 +21,11 @@ p {
     gap: 10px;
 }
 
-section {
+div {
     border-bottom: 2px solid #ccc;
     padding: 20px 0;
 }
 
-section:last-child {
+div:last-child {
     border-bottom: none;
 }
