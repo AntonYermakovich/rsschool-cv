@@ -46,23 +46,23 @@
       <div class="code">
         <h2>Code Examples</h2>
         <pre>
-            const search = (nums, target) =&gt; {
+            function search (nums, target) {
                 let left = 0;
                 let right = nums.length - 1;
                 let mid;
         
                 while(left &lt;= right) {
-                    mid = Math.round((right - left) / 2) + left;
-        
-                    if (target === nums[mid]) {
-                        return mid;
-                    } else if (target &lt; nums[mid]) {
-                        right = mid - 1;
-                    } else {
-                        left = mid + 1;
-                    }
+                  mid = Math.round((right - left) / 2) + left;
+      
+                  if (target === nums[mid]) {
+                      return mid;
+                  } else if (target &lt; nums[mid]) {
+                      right = mid - 1;
+                  } else {
+                      left = mid + 1;
+                  }
                 }
-                    return -1;
+                return -1;
             }
         </pre>
       </div>
@@ -82,9 +82,7 @@
 
       <div class="education">
         <h2>Education</h2>
-        <a target="_blank" href="https://app.rs.school/certificate/pnxd0lc8"
-          >JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)</a
-        >
+        <a target="_blank" href="https://app.rs.school/certificate/pnxd0lc8">JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)</a>
       </div>
 
       <div class="languages">
