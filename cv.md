@@ -68,3 +68,16 @@ ___
 [Lang-bao](https://lang-bao.com/)
 
 [Tech vortex](https://technovertex.ru/)
+
+___
+
+### Education
+
+[JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)](https://app.rs.school/certificate/pnxd0lc8)
+
+___
+
+### Languages
+
+* **English** - A2
+* **Russian** - Native
