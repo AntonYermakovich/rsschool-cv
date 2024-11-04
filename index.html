@@ -56,6 +56,45 @@
           >
         </p>
       </section>
+
+      <section class="about">
+        <h2>Briefly About Myself</h2>
+        <p>I am sociable and also know how to work in a team. I want to become a good developer.</p>
+      </section>
+
+      <section class="skills">
+        <ul>
+            <li>HTML, CSS, JS</li>
+            <li>React, Node.js</li>
+            <li>Figma, Photoshop</li>
+            <li>Git, GitHub, GitLab</li>
+            <li>VS Code, WebStorm</li>
+        </ul>
+      </section>
+
+      <section class="code">
+        <h2>Code Examples</h2>
+        <pre>
+            const search = (nums, target) => {
+                let left = 0;
+                let right = nums.length - 1;
+                let mid;
+        
+                while(left <= right) {
+                    mid = Math.round((right - left) / 2) + left;
+        
+                    if (target === nums[mid]) {
+                        return mid;
+                    } else if (target < nums[mid]) {
+                        right = mid - 1;
+                    } else {
+                        left = mid + 1;
+                    }
+                }
+                    return -1;
+            }
+        </pre>
+      </section>
     </div>
   </body>
 </html>
